@@ -4,7 +4,7 @@
 # 机场订阅
 proxy-providers:
   飞鸟:
-    url: "https://fba01.fbsubcn01.cc:2096/flydsubal/lzoyhmww0sap9hd7?sub=2&extend=1"
+    url: ""
     type: http
     interval: 86400
     health-check:
@@ -15,7 +15,7 @@ proxy-providers:
 
 proxy-providers:
   养鸡场:
-    url: "https://api.xf-sub.cc/cctv/user/client/get?token=e70b40d3536bd0f77045ec28ae511c46"
+    url: ""
     type: http
     interval: 86400
     health-check:
