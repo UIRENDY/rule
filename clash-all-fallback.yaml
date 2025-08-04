@@ -7,7 +7,7 @@
 proxy-providers:
 
   飞鸟:
-    url: "https://fba01.fbsubcn01.cc:2096/flydsubal/jttsbbmlndy6fmsh?sub=2&extend=1"
+    url: "https://fba01.fbsubcn01.cc:22&extend=1"
     type: http
     interval: 86400
     health-check:
@@ -17,7 +17,7 @@ proxy-providers:
     proxy: 直连 
     
   养鸡:
-    url: "https://api.xfltd.cyou/cctv/user/client/get?token=d065c6f30a3f0dc98a82f53dd9dc20ff"
+    url: ""
     type: http
     interval: 86400
     health-check:
@@ -371,3 +371,4 @@ rule-providers:
   Google / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/google.mrs"}  
   Google / IP: {<<: *ip, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geoip/google.mrs"}
 # GateFireWall / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/gfw.mrs"}
+
