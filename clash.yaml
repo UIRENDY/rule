@@ -13,7 +13,6 @@ proxy-providers:
       interval: 300
     proxy: 直连
 
-# 机场订阅
 proxy-providers:
   养鸡场:
     url: "https://api.xf-sub.cc/cctv/user/client/get?token=e70b40d3536bd0f77045ec28ae511c46"
